@@ -80,6 +80,7 @@ eval `luarocks path`
 nginx -V
 resty -V
 luarocks --version
+luarocks install luacov-coveralls
 
 pushd $KONG_DOWNLOAD
   git checkout -q $KONG
