@@ -71,3 +71,4 @@ Get current consumer limits and call counts
 
 ### POST /consumer-rate-limiting/default
 Sets default limits for undefined consumers
+
